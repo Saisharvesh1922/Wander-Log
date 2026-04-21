@@ -1,0 +1,45 @@
+# Environment variables
+.env
+.env.local
+.env.production
+**/.env
+**/.env.local
+**/.env.production
+
+# Python virtual environment
+**/venv/
+**/__pycache__/
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Python compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Chatbot sensitive files
+Chat bot/.env
+**/Chat bot/.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Build files
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/

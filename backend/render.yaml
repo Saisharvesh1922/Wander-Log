@@ -1,0 +1,17 @@
+services:
+  # Web Service
+  - type: web
+    name: wanderlog-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm run start:prod
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false
+      - key: ACCESS_TOKEN_SECRET
+        sync: false
+      - key: PORT
+        value: 8000
